@@ -1,6 +1,40 @@
 {
-  "profile": {
-    "name": "Manuel Cuenca Garcia"
+  "obtenerTipoProteccion": {
+    "status":200,
+    "mensaje":[
+      "OK"
+    ],
+    "data":[
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "obtenerMetodoCalculo": {
+    "status":200,
+    "mensaje":[
+      "OK"
+    ],
+    "data":[
+      8,
+      16,
+      32,
+      64
+    ]
+  },
+  "obtenerSubFamilia": {
+    "status":200,
+    "mensaje":[
+      "OK"
+    ],
+    "data":[
+      7,
+      9,
+      10,
+      12
+    ]
   },
   "buscarProtecciones": {
     "status":200,
