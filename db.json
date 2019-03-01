@@ -151,7 +151,7 @@
                       "url":"http://axprewebtgt1.central.inditex.grp/LOCMConsultaImagenesArticulos/services/rest/image/V/2019/8418/403?handlers=EMCC,EMCCDR,EMCCA,EMCCADR,MAMC,MAMCDR,NOTFOUND&cc=1&c=803&s=SMALL&cad=1&prod=0&tsec=2",
                       "calidad":2,
                       "color":3,
-                      "talla":4,
+                      "talla":null,
                       "consideracionExposicion":1,
                       "stockMin":1,
                       "stockMax":1,
@@ -161,7 +161,7 @@
                       "valor":60,
                       "fechaInicioVigencia":"13022019T17-13-55",
                       "fechaFinVigencia":"13022019T17-13-55",
-                      "observaciones":"adsf",
+                      "observaciones":"antonio huele mal",
                       "activas":true
         }
       ]
