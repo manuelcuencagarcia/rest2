@@ -1,4 +1,39 @@
 {
+  "obtenerDatosFechasSaldo": {
+    "status":200,
+    "mensaje":[
+      "OK"
+    ],
+    "data":[
+      {
+        "idTienda": 1,
+        "tienda": "tienda1",
+        "inicioP": "2018-12-12",
+        "finPDirigida": "2018-12-13",
+        "finP": "2018-12-13",
+        "inicioRebajas": "2018-12-11",
+        "finE": "2018-12-13"
+      },
+      {
+        "idTienda": 2,
+        "tienda": "tienda2",
+        "inicioP": "2018-12-12",
+        "finPDirigida": "2018-12-13",
+        "finP": "2018-12-13",
+        "inicioRebajas": "2018-12-11",
+        "finE": "2018-12-13"
+      },
+      {
+        "idTienda": 3,
+        "tienda": "tienda3",
+        "inicioP": "2018-12-12",
+        "finPDirigida": "2018-12-13",
+        "finP": "2018-12-13",
+        "inicioRebajas": "2018-12-11",
+        "finE": "2018-12-13"
+      }
+    ]
+  },
   "obtenerTipoProteccion": {
     "status":200,
     "mensaje":[
