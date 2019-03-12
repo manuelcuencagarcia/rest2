@@ -31,175 +31,25 @@
         "finP": "2018-12-13",
         "inicioRebajas": "2018-12-11",
         "finE": "2018-12-13"
+      },
+      {
+        "idTienda": 4,
+        "tienda": "tienda4",
+        "inicioP": "2018-12-12",
+        "finPDirigida": "2018-12-13",
+        "finP": "2018-12-13",
+        "inicioRebajas": "2018-12-11",
+        "finE": "2018-12-13"
+      },
+      {
+        "idTienda": 5,
+        "tienda": "tienda5",
+        "inicioP": "2018-12-12",
+        "finPDirigida": "2018-12-13",
+        "finP": "2018-12-13",
+        "inicioRebajas": "2018-12-11",
+        "finE": "2018-12-13"
       }
     ]
-  },
-  "obtenerTipoProteccion": {
-    "status":200,
-    "mensaje":[
-      "OK"
-    ],
-    "data":[
-      1,
-      2,
-      3,
-      4,
-      5
-    ]
-  },
-  "obtenerMetodoCalculo": {
-    "status":200,
-    "mensaje":[
-      "OK"
-    ],
-    "data":[
-      8,
-      16,
-      32,
-      64
-    ]
-  },
-  "obtenerSubFamilia": {
-    "status":200,
-    "mensaje":[
-      "OK"
-    ],
-    "data":[
-      7,
-      9,
-      10,
-      12
-    ]
-  },
-  "buscarProtecciones": {
-    "status":200,
-    "mensaje":[
-      "OK"
-    ],
-    "data":{
-      "nTotalRegistros":26,
-      "returnDTO":[
-        {
-          "tipoProteccionStock":null,
-          "seccion":{
-            "idTipoSeccion":1,
-            "descripcionTipoSeccion":"Señora"
-          },
-          "producto":{
-            "idProducto":2,
-            "descripcionProducto":"Calzado"
-          },
-                      "tienda":{
-                            "descripcionTienda":"LON-BRENT CROSS",
-                            "idTienda":3210
-          },
-                      "campana":{
-                            "idCampana":26,
-                            "idTipoCampana":"V",
-                            "anoCampana":2019
-          },
-                      "subfamilia":{
-                            "idSubfamilia":26,
-                            "descripcionSubfamilia":"Pantalones"
-          },
-                      "modelo":1,
-                      "url":"http://axprewebtgt1.central.inditex.grp/LOCMConsultaImagenesArticulos/services/rest/image/V/2019/8418/403?handlers=EMCC,EMCCDR,EMCCA,EMCCADR,MAMC,MAMCDR,NOTFOUND&cc=1&c=803&s=SMALL&cad=1&prod=0&tsec=2",
-                      "calidad":2,
-                      "color":3,
-                      "talla":4,
-                      "consideracionExposicion":1,
-                      "stockMin":1,
-                      "stockMax":1,
-                      "diasTDAMin":1,
-                      "diasTDAMax":1,
-                      "metCalculo":"asdfasdf",
-                      "valor":60,
-                      "fechaInicioVigencia":"13022019T17-13-55",
-                      "fechaFinVigencia":"13022019T17-13-55",
-                      "observaciones":"adsf",
-                      "activas":true
-        },
-        {
-          "tipoProteccionStock":null,
-          "seccion":{
-            "idTipoSeccion":1,
-            "descripcionTipoSeccion":"Señora"
-          },
-          "producto":{
-            "idProducto":2,
-            "descripcionProducto":"Calzado"
-          },
-                      "tienda":{
-                            "descripcionTienda":"LON-BRENT CROSS",
-                            "idTienda":3210
-          },
-                      "campana":{
-                            "idCampana":26,
-                            "idTipoCampana":"V",
-                            "anoCampana":2019
-          },
-                      "subfamilia":{
-                            "idSubfamilia":26,
-                            "descripcionSubfamilia":"Pantalones"
-          },
-                      "modelo":1,
-                      "url":"http://axprewebtgt1.central.inditex.grp/LOCMConsultaImagenesArticulos/services/rest/image/V/2019/8418/403?handlers=EMCC,EMCCDR,EMCCA,EMCCADR,MAMC,MAMCDR,NOTFOUND&cc=1&c=803&s=SMALL&cad=1&prod=0&tsec=2",
-                      "calidad":2,
-                      "color":3,
-                      "talla":4,
-                      "consideracionExposicion":1,
-                      "stockMin":1,
-                      "stockMax":1,
-                      "diasTDAMin":1,
-                      "diasTDAMax":1,
-                      "metCalculo":"asdfasdf",
-                      "valor":60,
-                      "fechaInicioVigencia":"13022019T17-13-55",
-                      "fechaFinVigencia":"13022019T17-13-55",
-                      "observaciones":"adsf",
-                      "activas":true
-        },
-        {
-          "tipoProteccionStock":null,
-          "seccion":{
-            "idTipoSeccion":1,
-            "descripcionTipoSeccion":"Señora"
-          },
-          "producto":{
-            "idProducto":2,
-            "descripcionProducto":"Calzado"
-          },
-                      "tienda":{
-                            "descripcionTienda":"LON-BRENT CROSS",
-                            "idTienda":3210
-          },
-                      "campana":{
-                            "idCampana":26,
-                            "idTipoCampana":"V",
-                            "anoCampana":2019
-          },
-                      "subfamilia":{
-                            "idSubfamilia":26,
-                            "descripcionSubfamilia":"Pantalones"
-          },
-                      "modelo":1,
-                      "url":"http://axprewebtgt1.central.inditex.grp/LOCMConsultaImagenesArticulos/services/rest/image/V/2019/8418/403?handlers=EMCC,EMCCDR,EMCCA,EMCCADR,MAMC,MAMCDR,NOTFOUND&cc=1&c=803&s=SMALL&cad=1&prod=0&tsec=2",
-                      "calidad":2,
-                      "color":3,
-                      "talla":null,
-                      "consideracionExposicion":1,
-                      "stockMin":1,
-                      "stockMax":1,
-                      "diasTDAMin":1,
-                      "diasTDAMax":1,
-                      "metCalculo":"asdfasdf",
-                      "valor":60,
-                      "fechaInicioVigencia":"13022019T17-13-55",
-                      "fechaFinVigencia":"13022019T17-13-55",
-                      "observaciones":"asdasd",
-                      "activas":true
-        }
-      ]
-    }
   }
 }
