@@ -47,5 +47,7 @@
       ]
     }
   },
-  "megaImportante": "pa k kieres saber eso jaja saludos"
+  "megaImportante": {
+    "Pregunta": { "Respuesta": "pa k kieres saber eso jaja saludos" }
+  }
 }
