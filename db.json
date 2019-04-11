@@ -1,53 +1,12 @@
 {
-  "obtenerPlanificacionSaldo": {
+  "fetchObtenerPlanificacionEnvio": {
     "status":200,
     "mensaje":[
       "OK"
     ],
-    "data": {
-      "centroDistribucionPlanificacionEnvios": {
-        "codLocalizacion": 100552,
-        "descripcion": "INDITEX-EC-NORTHAMPT",
-        "idInicioPreparacion": 123451,
-        "inicioPreparacion": 1559512800000,
-        "idFinPreparacionDirigida": 123452,
-        "finPreparacionDirigida": 1559858400000
-      },
-      "tiendasPlanificacionEnvios": [
-        {
-          "codLocalizacion": 1247,
-          "descripcion": "LON-PARK HOUSE",
-          "idFechaPicking": 123453,
-          "fechaPicking": 1559512800000,
-          "idFechaEntrega": 123454,
-          "fechaEntrega": 1559858400000,
-          "idSeccion": 1,
-          "comprador": "TODOS"
-        },
-        {
-          "codLocalizacion": 1273,
-          "descripcion": "LON-HEATHROW",
-          "idFechaPicking": 123455,
-          "fechaPicking": 1559512800000,
-          "idFechaEntrega": 123456,
-          "fechaEntrega": 1559858400000,
-          "idSeccion": 2,
-          "comprador": "TODOS"
-        },
-        {
-          "codLocalizacion": 1377,
-          "descripcion": "LON-OXFORD",
-          "idFechaPicking": 123457,
-          "fechaPicking": 1559512800000,
-          "idFechaEntrega": 123458,
-          "fechaEntrega": 1559858400000,
-          "idSeccion": 3,
-          "comprador": "TODOS"
-        }
-      ]
-    }
-  },
-  "megaImportante": {
-    "Pregunta": { "Respuesta": "pa k kieres saber eso jaja saludos" }
+    "data": [
+      { "fPicking": 1559858400000, "centroDristribucion": 100552, "descripcion": "INDITEX-EC-NORTHAMPT" },
+      { "fPicking": 1555279200000, "centroDristribucion": 100586, "descripcion": "TEMPE-EC-ST.MICHEL" }
+    ]
   }
 }
