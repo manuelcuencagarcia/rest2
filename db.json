@@ -8,5 +8,18 @@
       { "fPicking": 1559858400000, "centroDristribucion": 100552, "descripcion": "INDITEX-EC-NORTHAMPT" },
       { "fPicking": 1555279200000, "centroDristribucion": 100586, "descripcion": "TEMPE-EC-ST.MICHEL" }
     ]
+  },
+  "fetchObtenerPlanificacionEnvioDetalle": {
+    "status":200,
+    "mensaje":[
+      "OK"
+    ],
+    "data": [
+      { "fPicking": 1559858400000, "agrupaciones": [1, 2, 3, 4, 5] },
+      { "fPicking": 1555279200000, "agrupaciones": [5, 3, 9, 4, 9, 1, 12, 51] },
+      { "fPicking": 1555279200000, "agrupaciones": [9, 4, 9, 51] },
+      { "fPicking": 1555279200000, "agrupaciones": [5, 12, 8, 34] },
+      { "fPicking": 1555279200000, "agrupaciones": [5, 3, 1] }
+    ]
   }
 }
