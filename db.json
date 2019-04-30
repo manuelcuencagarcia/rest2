@@ -9,6 +9,28 @@
       { "fPicking": 1555279200000, "centroDristribucion": 100586, "descripcion": "TEMPE-EC-ST.MICHEL" }
     ]
   },
+  "fetchObtenerPreparacionRebajas": {
+    "status":200,
+    "mensaje":[
+      "OK"
+    ],
+    "data": {
+      "saldoPreparacionCD2": {},
+      "saldoPreparacionList": [{
+          "idTienda": 3219,
+          "nombreTienda": null,
+          "stockTienda": 0,
+          "stockEstimado": 0,
+          "porcentajeEstimado": null,
+          "stockObjetivo": 65000,
+          "pendiente": 0,
+          "repartoTemporada": 0,
+          "repartoSaldo": 0,
+          "limiteOperativo": 2496,
+          "porcentajeOperativo": 0
+      }]
+    }
+  },
   "fetchObtenerPlanificacionEnvioDetalle": {
     "status":200,
     "mensaje":[
