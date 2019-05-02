@@ -15,7 +15,20 @@
       "OK"
     ],
     "data": {
-      "saldoPreparacionCD2": {},
+      "saldoPreparacionCD2": {
+        "idUltimaOleadaCD2": 21152,
+        "fechaUltimaOleadaCD2": 1556710120454,
+        "stockTiendaCD2": 0,
+        "stockEstimadoCD2": 0,
+        "porcentajeEstimadoCD2": 0,
+        "stockObjetivoCD2": 795200,
+        "porcentajeObjetivoCD2": 0,
+        "pendienteCD2": 795200,
+        "repartoTemporadaCD2": 0,
+        "repartoSaldoCD2": 0,
+        "limiteOperativoCD2": 39408,
+        "porcentajeOperativoCD2": 0
+      },
       "saldoPreparacionList": [{
           "idTienda": 3219,
           "nombreTienda": null,
