@@ -1,48 +1,16 @@
 {
-  "fetchObtenerPlanificacionEnvio": {
+  "fetchObtenerAgrupacionesDisponibles": {
     "status":200,
     "mensaje":[
       "OK"
     ],
     "data": [
-      { "fPicking": 1559858400000, "centroDristribucion": 100552, "descripcion": "INDITEX-EC-NORTHAMPT" },
-      { "fPicking": 1555279200000, "centroDristribucion": 100586, "descripcion": "TEMPE-EC-ST.MICHEL" }
+      { "idAgrupacion": 123, "descripcion": "hola1", "idAgrupacionPadre": 321 },
+      { "idAgrupacion": 456, "descripcion": "hola2", "idAgrupacionPadre": 654 },
+      { "idAgrupacion": 789, "descripcion": "hola3", "idAgrupacionPadre": 987 },
+      { "idAgrupacion": 012, "descripcion": "hola4", "idAgrupacionPadre": 210 },
+      { "idAgrupacion": 345, "descripcion": "hola5", "idAgrupacionPadre": 543 },
     ]
-  },
-  "fetchObtenerPreparacionRebajas": {
-    "status":200,
-    "mensaje":[
-      "OK"
-    ],
-    "data": {
-      "saldoPreparacionCD2": {
-        "idUltimaOleadaCD2": 21152,
-        "fechaUltimaOleadaCD2": 1556710120454,
-        "stockTiendaCD2": 0,
-        "stockEstimadoCD2": 0,
-        "porcentajeEstimadoCD2": 0,
-        "stockObjetivoCD2": 795200,
-        "porcentajeObjetivoCD2": 0,
-        "pendienteCD2": 795200,
-        "repartoTemporadaCD2": 0,
-        "repartoSaldoCD2": 0,
-        "limiteOperativoCD2": 39408,
-        "porcentajeOperativoCD2": 0
-      },
-      "saldoPreparacionList": [{
-          "idTienda": 3219,
-          "nombreTienda": null,
-          "stockTienda": 0,
-          "stockEstimado": 0,
-          "porcentajeEstimado": null,
-          "stockObjetivo": 65000,
-          "pendiente": 0,
-          "repartoTemporada": 0,
-          "repartoSaldo": 0,
-          "limiteOperativo": 2496,
-          "porcentajeOperativo": 0
-      }]
-    }
   },
   "fetchObtenerPlanificacionEnvioDetalle": {
     "status":200,
