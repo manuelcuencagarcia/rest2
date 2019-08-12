@@ -9,7 +9,7 @@
       { "idAgrupacion": 456, "descripcion": "hola2", "idAgrupacionPadre": 654 },
       { "idAgrupacion": 789, "descripcion": "hola3", "idAgrupacionPadre": 987 },
       { "idAgrupacion": 012, "descripcion": "hola4", "idAgrupacionPadre": 210 },
-      { "idAgrupacion": 345, "descripcion": "hola5", "idAgrupacionPadre": 543 },
+      { "idAgrupacion": 345, "descripcion": "hola5", "idAgrupacionPadre": 543 }
     ]
   },
   "fetchObtenerPlanificacionEnvioDetalle": {
