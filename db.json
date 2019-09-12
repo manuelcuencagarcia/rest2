@@ -12,6 +12,13 @@
       { "idAgrupacion": 345, "descripcion": "hola5", "idAgrupacionPadre": 543 }
     ]
   },
+  "insertaModifica": {
+    "status":200,
+    "mensaje":[
+      "OK"
+    ],
+    "data": "SUCCESS"
+  },
   "fetchObtenerPlanificacionEnvioDetalle": {
     "status":200,
     "mensaje":[
