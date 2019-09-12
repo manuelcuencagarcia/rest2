@@ -19,6 +19,13 @@
     ],
     "data": "SUCCESS"
   },
+  "insertaModificaError": {
+    "status":200,
+    "mensaje":[
+      "OK"
+    ],
+    "data": "ERROR"
+  },
   "fetchObtenerPlanificacionEnvioDetalle": {
     "status":200,
     "mensaje":[
