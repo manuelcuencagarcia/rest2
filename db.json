@@ -1,42 +1,69 @@
-{
-  "fetchObtenerAgrupacionesDisponibles": {
-    "status":200,
-    "mensaje":[
-      "OK"
-    ],
-    "data": [
-      { "idAgrupacion": 123, "descripcion": "hola1", "idAgrupacionPadre": 321 },
-      { "idAgrupacion": 456, "descripcion": "hola2", "idAgrupacionPadre": 654 },
-      { "idAgrupacion": 789, "descripcion": "hola3", "idAgrupacionPadre": 987 },
-      { "idAgrupacion": 12, "descripcion": "hola4", "idAgrupacionPadre": 210 },
-      { "idAgrupacion": 345, "descripcion": "hola5", "idAgrupacionPadre": 543 }
-    ]
-  },
-  "insertaModifica": {
-    "status":200,
-    "mensaje":[
-      "OK"
-    ],
-    "data": "SUCCESS"
-  },
-  "insertaModificaError": {
-    "status":200,
-    "mensaje":[
-      "OK"
-    ],
-    "data": "ERROR"
-  },
-  "fetchObtenerPlanificacionEnvioDetalle": {
-    "status":200,
-    "mensaje":[
-      "OK"
-    ],
-    "data": [
-      { "fPicking": 1559858400000, "agrupaciones": [1, 2, 3, 4, 5] },
-      { "fPicking": 1555279200000, "agrupaciones": [5, 3, 9, 4, 9, 1, 12, 51] },
-      { "fPicking": 1555279200000, "agrupaciones": [9, 4, 9, 51] },
-      { "fPicking": 1555279200000, "agrupaciones": [5, 12, 8, 34] },
-      { "fPicking": 1555279200000, "agrupaciones": [5, 3, 1] }
-    ]
-  }
+{ 
+	"insertaModifica":{ 
+		"status":200,
+		"mensaje":[ 
+			"OK"
+		],
+		"data":"SUCCESS"
+	},
+	"insertaModificaError":{ 
+		"status":200,
+		"mensaje":[ 
+			"OK"
+		],
+		"data":"ERROR"
+	},
+	"fetchObtenerInauguracion":{ 
+		"status":200,
+		"mensaje":[ 
+			"OK"
+		],
+		"data":{ 
+			"nTotalRegistros":2,
+			"returnDTO":[ 
+				{ 
+					"idCentroDistribucion":100552,
+					"descripcion":"INDITEX-EC-NORTHAMPT"
+				},
+				{ 
+					"idCentroDistribucion":100553,
+					"descripcion":"TEMPETEMPE-EC-NORTHAMPTON"
+				}
+			]
+		}
+	},
+	"fetchObtenerInauguracionDetalle":{ 
+		"status":200,
+		"mensaje":[ 
+			"OK"
+		],
+		"data":{ 
+			"nTotalRegistros":2,
+			"returnDTO":[ 
+				{ 
+					"idTienda":3296,
+					"descripcionTienda":"LON-HARLEQUIN",
+					"idSeccion":1,
+					"idTipoReserva":1,
+					"fechaInicio":"19/09/2019 00:00:00",
+					"fechaFin":"21/09/2019 23:59:59",
+					"idTipoReparto":1,
+					"idTipoVisualizacion":1,
+					"codReservaIndome":"123AB123",
+					"udsDisponibles":15000
+				},
+				{ 
+					"idTienda":3712,
+					"descripcionTienda":"LON-CANARY",
+					"idSeccion":1,
+					"idTipoReserva":1,
+					"fechaInicio":"19/09/2019 00:00:00",
+					"fechaFin":"21/09/2019 23:59:59",
+					"idTipoReparto":1,
+					"idTipoVisualizacion":1,
+					"udsDisponibles":15000
+				}
+			]
+		}
+	}
 }
