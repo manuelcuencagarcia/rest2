@@ -62,6 +62,61 @@
 					"idTipoReparto":1,
 					"idTipoVisualizacion":1,
 					"udsDisponibles":15000
+				},
+				{ 
+					"idTienda":1234,
+					"descripcionTienda":"LON-ALGO",
+					"idSeccion":1,
+					"idTipoReserva":1,
+					"fechaInicio":"19/09/2019 00:00:00",
+					"fechaFin":"21/09/2019 23:59:59",
+					"idTipoReparto":1,
+					"idTipoVisualizacion":1,
+					"udsDisponibles":123
+				},
+				{ 
+					"idTienda":4321,
+					"descripcionTienda":"LON-DON",
+					"idSeccion":1,
+					"idTipoReserva":1,
+					"fechaInicio":"19/09/2019 00:00:00",
+					"fechaFin":"21/09/2019 23:59:59",
+					"idTipoReparto":1,
+					"idTipoVisualizacion":1,
+					"udsDisponibles":321
+				},
+				{ 
+					"idTienda":5678,
+					"descripcionTienda":"LON-WASD",
+					"idSeccion":1,
+					"idTipoReserva":1,
+					"fechaInicio":"19/09/2019 00:00:00",
+					"fechaFin":"21/09/2019 23:59:59",
+					"idTipoReparto":1,
+					"idTipoVisualizacion":1,
+					"udsDisponibles":1357
+				},
+				{ 
+					"idTienda":9876,
+					"descripcionTienda":"LON-QWERTY",
+					"idSeccion":1,
+					"idTipoReserva":1,
+					"fechaInicio":"19/09/2019 00:00:00",
+					"fechaFin":"21/09/2019 23:59:59",
+					"idTipoReparto":1,
+					"idTipoVisualizacion":1,
+					"udsDisponibles":27
+				},
+				{ 
+					"idTienda":666,
+					"descripcionTienda":"LON-JAJASI",
+					"idSeccion":1,
+					"idTipoReserva":1,
+					"fechaInicio":"19/09/2019 00:00:00",
+					"fechaFin":"21/09/2019 23:59:59",
+					"idTipoReparto":1,
+					"idTipoVisualizacion":1,
+					"udsDisponibles":777
 				}
 			]
 		}
