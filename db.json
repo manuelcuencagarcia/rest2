@@ -55,20 +55,6 @@
                 "saldoPreparacionGraficaTiendas":{
                     "stockObjetivoPrimerDiaSaldo":[
                         {
-                            "fecha":1559772000000,
-                            "value":1006554,
-                            "alertas": {
-                                "listaAlertas": []
-                            }
-                        },
-                        {
-                            "fecha":1559858400000,
-                            "value":1006554,
-                            "alertas": {
-                                "listaAlertas": []
-                            }
-                        },
-                        {
                             "fecha":1559944800000,
                             "value":1006554,
                             "alertas": {
@@ -99,20 +85,6 @@
                     ],
                     "stockObjetivoEstimado":[
                         {
-                            "fecha":1559772000000,
-                            "value":749129,
-                            "alertas": {
-                                "listaAlertas": []
-                            }
-                        },
-                        {
-                            "fecha":1559858400000,
-                            "value":782859,
-                            "alertas": {
-                                "listaAlertas": []
-                            }
-                        },
-                        {
                             "fecha":1559944800000,
                             "value":784967,
                             "alertas": {
@@ -142,20 +114,6 @@
                         }
                     ],
                     "sumaStockTiendaExt":[
-                        {
-                            "fecha":1559772000000,
-                            "value":884328,
-                            "alertas": {
-                                "listaAlertas": []
-                            }
-                        },
-                        {
-                            "fecha":1559858400000,
-                            "value":919174,
-                            "alertas": {
-                                "listaAlertas": []
-                            }
-                        },
                         {
                             "fecha":1559944800000,
                             "value":919459,
@@ -189,20 +147,6 @@
                 "saldoPreparacionGraficaCD2":{
                     "saldoPreparacionGraf2LimiteOperativoList":[
                         {
-                            "fecha":1559772000000,
-                            "value":47507,
-                            "alertas": {
-                                "listaAlertas": []
-                            }
-                        },
-                        {
-                            "fecha":1559858400000,
-                            "value":48279,
-                            "alertas": {
-                                "listaAlertas": []
-                            }
-                        },
-                        {
                             "fecha":1559944800000,
                             "value":48279,
                             "alertas": {
@@ -232,20 +176,6 @@
                         }
                     ],
                     "saldoPreparacionGraf2RepartoTRList":[
-                        {
-                            "fecha":1559772000000,
-                            "value":46521,
-                            "alertas": {
-                                "listaAlertas": []
-                            }
-                        },
-                        {
-                            "fecha":1559858400000,
-                            "value":44978,
-                            "alertas": {
-                                "listaAlertas": []
-                            }
-                        },
                         {
                             "fecha":1559944800000,
                             "value":45185,
@@ -306,3 +236,4 @@
             }
         }
     }
+    
